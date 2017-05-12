@@ -1,0 +1,23 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+
+.intro{
+	text-align: center;
+	width: 60%;
+	height: 50%;
+}
+
+.product{
+	background-color: #f2f2f2;
+	text-align: right;
+	width: 40%;
+	height: 50%;
+
+}
