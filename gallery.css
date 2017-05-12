@@ -6,11 +6,11 @@
 
 h1{
 	text-align: center;
-	font-size: 54px;
+	font-size: 52px;
 	font-family: sans-serif;
 	padding: 15px;
 	color: black;
-	padding-top: 85px;
+	padding-top: 90px;
 
 }
 
@@ -24,12 +24,12 @@ h1{
 	height: 85px;
 	background-color: white;
 	z-index: 1000;
-
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .25);
+	border-bottom: 1px solid #3e3e3e;
 }
 
 nav{
-	margin-top: 20px;
-	border-style: none;
+	margin-top: 35px;
 
 }
 
@@ -39,10 +39,31 @@ a{
 	display: inline-block;
 }
 
+.logo{
+	width: 100%;
+	height: 85px;
+}
+
+.logo img{
+	height: 60px;
+	width: 150px;
+	float: left;
+	margin-left: 2px;
+}
+
 .container {
 	width: 100%; 
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.border{
+	width: 50px;
+	height: 3px; 
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 3px solid #00AD9F;
+
 }
 
 .five {
@@ -79,7 +100,7 @@ a{
 	margin-top: 5%;
 }
 
-img{
+.footer img{
 	border-radius: 100%;
 	width: 125px;
 	height: 125px;
@@ -87,7 +108,6 @@ img{
 
 p{
 	text-align: left;
-	text-overflow: wrap;
 	margin-top: 5px;
 	margin-bottom: 5px;
 
